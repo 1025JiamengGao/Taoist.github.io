@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav</title>
+    <style>
+        *{
+            font-family: 宋体;
+        }
+       body{
+        display:fixed;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+       }
+       .sheel{
+        position:fixed;
+        width:200px;
+        height:100%;
+        border-right:1px solid black;
+        border:1px solid black;
+       }
+       .buttons{
+            margin:100px 0;
+            color:gold;
+        text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+       }
+       .li{
+        list-style-type: none;
+        letter-spacing: 2px;
+        font:600 17px '宋体';
+        
+        padding:16px 16px;
+        transition: .3s;
+        
+       }
+       .li:hover{
+        border:1px solid black;
+        color:black;
+       }
+       .li::after{
+        content:'';
+        position:absolute;
+        left:20px;
+        margin-top: -22px;
+        display:block;
+        width:20px;
+        height:20px;
+        background-color:none;
+        border-radius:50%;
+       }
+       .button>li:hover{
+        background-color:black ;
+        
+       }
+       .li ul{
+        width:0;
+        height:auto;
+        padding:60px 0;
+        position:absolute;
+        top:0;
+        right:0;
+        overflow:hidden;
+        background-color:white;
+        transition:.3s;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+       }
+      .li ul li{
+        padding:16px 24px;
+        color:gold;
+      }
+      .li:hover ul{
+        width:130px;
+        
+      }
+      .li ul li:hover{
+        background-color:none;
+        border:1px solid black;
+        
+      }
+      a{
+        color:gold;
+        text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+        text-decoration: none;
+      }
+
+    </style>
+</head>
+<body>
+    <nav class="sheel">
+        
+        <ul class="buttons">
+            <li class="li">
+                一时逸
+                <ul>
+                    <li><a href="content.html" target="内容">小“道”消息</a></li>
+                    <li>直播</li>
+                    <li>论道</li>
+                </ul>
+            </li>
+            <li class="li">
+                三宝
+                <ul>
+                    <li>修道</li>
+                    <li>读经</li>
+                    <li>师授</li>
+                </ul>
+            </li>
+            <li class="li">
+                斩三尸
+                <ul>
+                    <li>上尸神</li>
+                    <li>中尸神</li>
+                    <li>下尸神</li>
+                </ul>
+            </li>
+            <li class="li">
+                丹
+                <ul>
+                    <li>内丹</li>
+                    <li>外丹</li>
+                    <li>还丹</li>
+                </ul>
+            </li>
+            <li class="li">
+                法术
+                <ul>
+                    <li>符篆</li>
+                    <li>符箓</li>
+                    <li>六十四法术</li>
+                </ul>
+            </li>
+            <li class="li">
+                修炼
+                <ul>
+                    <li>心法</li>
+                    <li><a href="content1.html" target="内容" >结印</a></li>
+                    <li>咒法</li>
+                    <li>八大神咒</li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
+
