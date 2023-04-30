@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小道消息</title>
+    <style>
+        body{
+          overflow-x:hidden;
+           background:linear-gradient(rgba(251, 250, 250, 0.9),rgba(243, 243, 243, 0.9)),url('八卦.jpg');
+           background-size: contain;
+           background-attachment:inherit;
+           
+       }
+       
+       .news{
+        margin-top: 30px;
+        width: 60%;
+        height: 300px;
+        margin-left:50px;
+        padding:10px;
+        border:1px solid black;
+        line-height: 1.5;
+       }
+       .news p{
+        border-bottom:1px solid gold;
+       }
+       a{
+        text-decoration: none;
+        color:gold;
+        text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+       
+        lineheight:2;
+        
+
+       }
+       a:hover{
+        color:black;
+        text-decoration: none;
+       }
+     .sea{
+        text-align: center;
+     }
+      input{
+        margin:0 auto;
+        display:inline-block;
+        width:500px;
+        height:30px;
+        background-image:linear-gradient(rgba(251, 250, 250, 0.9),rgba(243, 243, 243, 0.9)) ;
+        
+      }
+      button{
+        height:35px;
+        background-color: aliceblue;
+        border-left: none;
+      }
+      button:hover{
+        color:gold;
+        text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+      }
+      .history{
+       
+            font-size: 12px;
+            padding-left: 300px;
+      }
+      .charming{
+        
+        position:relative;
+        
+        perspective:800px;
+        top:200px;
+        
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      
+      }
+      .three{
+       
+        width:200px;
+        height:130px;
+        position:absolute;
+        transform-style: preserve-3d;
+        animation: charming 10s infinite cubic-bezier(.7,0,.17,1);
+      }
+      .three div{
+        position:absolute;
+        background-size: cover;
+        opacity:.9;
+        width:200px;
+        height:130px;
+        transform:rotateY(calc(var(--i)*120deg)) translateZ(400px);
+        
+      }
+      @keyframes charming{
+        0%{
+          transform: translateZ(-100px) rotateY(0);
+        }
+        33%{
+          transform: translateZ(-100px) rotateY(120deg);
+        }
+        66%{
+          transform: translateZ(-100px) rotateY(240deg);
+        }
+        100%{
+          transform: translateZ(-100px) rotateY(360deg);
+        }
+      }
+      .鹤{
+       
+        background-image: url('鹤.jpg');
+      }
+      .cold{
+        background-image: url('广寒.jpg');
+      }
+      .book{
+        background-image: url('经书.jpg');
+      }
+      
+      .wrapper{
+        margin:400px 10px 10px 10px;
+        display:grid;
+        grid-template-rows: repeat(5,200px);
+        grid-template-columns: repeat(5,200px);
+        grid-gap: 20px;
+       
+      }
+     .cell-1{
+      background-image: url('何仙姑.jpg');
+      background-size: cover;
+      grid-row:1/4;
+      grid-column:1/2 ;
+      border:10px solid rgb(180, 206, 228);
+      vertical-align: bottom;
+      border-radius: 14px;
+     }
+     .cell-2{
+      background-image: url('道法自然.jpg');
+      background-size: cover;
+      grid-row:2/3;
+      grid-column:2/3;
+      border:10px solid rgb(220, 192, 167);
+      border-radius: 14px;
+     }
+     .cell-3{
+      background-image: url('八仙过海.jpg');
+      background-size: cover;
+      grid-row:1/2;
+      grid-column:2/4;
+      border:10px solid rgb(242, 250, 164);
+      border-radius: 14px;
+     }
+     .cell-4{
+      background-image: url('人物.jpg');
+      background-size: cover;
+      grid-row:1/3;
+      grid-column:4/5;
+      border:10px solid rgb(220, 192, 167);
+      border-radius: 14px;
+     }
+     
+     .cell-5{
+      background-image: url('采药.jpg');
+      background-size: cover;
+      grid-row:3/5;
+      grid-column:2/4;
+      border:10px solid rgb(220, 192, 167);
+      border-radius: 14px;
+     }
+     .cell-6{
+      background-image: url('孙悟空.jpg');
+      background-size: cover;
+      grid-row:2/3;
+      grid-column:3/4;
+      border:10px solid black;
+      border-radius: 14px;
+     }
+     .cell-7{
+      background-image: url('三清山.jpg');
+      background-size: cover;
+      grid-row:3/4;
+      grid-column:4/6;
+      border:10px solid rgb(166, 202, 196);
+      border-radius: 14px;
+     }
+     .cell-8{
+      background-image: url('敕令.jpg');
+      background-size: cover;
+      grid-row:1/3;
+      grid-column:5/6;
+      border:10px solid rgb(215, 140, 64);
+      border-radius: 14px;
+     }
+     .cell-9{
+      background-image: url('大圣.jpg');
+      background-size: cover;
+      grid-row:5/6;
+      grid-column:2/4;
+      border:10px solid rgb(82, 79, 125);
+      border-radius: 14px;
+     }
+     .cell-10{
+      background-image: url('鹤鹤.jpg');
+      background-size: cover;
+      grid-row:4/6;
+      grid-column:4/6;
+      border:10px solid rgb(111, 110, 123);
+      border-radius: 14px;
+     }
+     .cell-11{
+      background-image: url('八卦图.jpg');
+      background-size: cover;
+      grid-row:4/6;
+      grid-column:1/2;
+      border:10px solid rgb(111, 110, 123);
+      border-radius: 14px;
+     }
+     
+    span{
+      display: inline-block;
+      vertical-align: bottom;
+      width:100%;
+
+    }
+    .box:hover{
+      background-size: contain;
+      background-repeat: no-repeat;
+     border:none;
+    }
+    </style>
+</head>
+<body>
+            <div class="sea"> <input type="textarea"><button class="search">搜一搜</button></input></div>
+            <p class="history">搜索记录：五年心法三年口决&nbsp;&nbsp;&nbsp;&nbsp;一星期快速掌握修行秘籍&nbsp;&nbsp;&nbsp;&nbsp;霸道散修爱上我 ....</p>
+    <div class="news">
+        <h1>小“道”消息</h1>
+        <p><a href="#">昔日大圣今日圣佛竟于南天门与二郎神公然斗殴，原因竟是...</a></p>
+        <p><a href="#">爷青回！赖头和尚及跛足道人今日回归！演唱会上将为大家演唱《好了歌》</a></p>
+        <p><a href="#">“太难了！这届心法考试太难了！”</a></p>
+        <p><a href="#">嫦娥仙子的月饼铺开业大酬宾啦！</a></p>
+        <p><a href="#">......</a></p>
+    </div>
+   
+        <div class="charming"> 
+       
+          <div class="three">
+
+          <div class="鹤" style="--i:0" title="载鹤归去"></div>
+          <div class="cold"style="--i:1" title="广寒宫"></div>
+          <div class="book"style="--i:2" title="道家经典"></div>
+
+        </div>
+
+      </div>
+
+      <div class="wrapper">
+        <div class="box cell-1">
+        </div>
+        <div class="box cell-2"></div>
+        <div class="box cell-3"></div>
+        <div class="box cell-4"></div>
+        <div class="box cell-5"></div>
+        <div class="box cell-6"></div>
+        <div class="box cell-7"></div>
+        <div class="box cell-8"></div>
+        <div class="box cell-9"></div>
+        <div class="box cell-10"></div>
+        <div class="box cell-11"></div>
+      </div>
+   
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小道消息</title>
+    <style>
+        body{
+           
+           background:linear-gradient(rgba(251, 250, 250, 0.9),rgba(243, 243, 243, 0.9)),url('八卦.jpg');
+           background-size: cover;
+           background-attachment:inherit;
+           
+       }
+       
+       .news{
+        margin-top: 30px;
+        width: 60%;
+        height: 300px;
+        margin-left:50px;
+        padding:10px;
+        border:1px solid black;
+        line-height: 1.5;
+       }
+       .news p{
+        border-bottom:1px solid gold;
+       }
+       a{
+        text-decoration: none;
+        color:gold;
+        text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+       
+        lineheight:2;
+        
+
+       }
+       a:hover{
+        color:black;
+        text-decoration: none;
+       }
+     .sea{
+        text-align: center;
+     }
+      input{
+        margin:0 auto;
+        display:inline-block;
+        width:500px;
+        height:30px;
+        background-image:linear-gradient(rgba(251, 250, 250, 0.9),rgba(243, 243, 243, 0.9)) ;
+        
+      }
+      button{
+        height:35px;
+        background-color: aliceblue;
+        border-left: none;
+      }
+      button:hover{
+        color:gold;
+        text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+      }
+      .history{
+       
+            font-size: 12px;
+            padding-left: 300px;
+      }
+      .charming{
+        position:relative;
+        margin:0px;
+        padding:0px;
+        perspective:300px;
+        top:300px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+      .three{
+        display:inline-block
+        width:400px;
+        height:250px;
+        position:absolute;
+        transform-style: preserve-3d;
+      }
+      .three div{
+        position:absolution;
+        background-size: cover;
+        opacity:.9;
+        width:400px;
+        height:250px;
+        transform:rotateY(calc(var(--i)*120deg) translateZ(600px));
+      }
+      .sun{
+        background-image: url('sun.jpg');
+      }
+      .chang{
+        background-image: url('sun.jpg');
+      }
+      .sing{
+        background-image: url('sun.jpg');
+      }
+    </style>
+</head>
+<body>
+            <div class="sea"> <input type="textarea"><button class="search">搜一搜</button></input></div>
+            <p class="history">搜索记录：五年心法三年口决&nbsp;&nbsp;&nbsp;&nbsp;一星期快速掌握修行秘籍&nbsp;&nbsp;&nbsp;&nbsp;霸道散修爱上我 ....</p>
+    <div class="news">
+        <h1>小“道”消息</h1>
+        <p><a href="#">昔日大圣今日圣佛竟于南天门与二郎神公然斗殴，原因竟是...</a></p>
+        <p><a href="#">爷青回！赖头和尚及跛足道人今日回归！演唱会上将为大家演唱《好了歌》</a></p>
+        <p><a href="#">“太难了！这届心法考试太难了！”</a></p>
+        <p><a href="#">嫦娥仙子的月饼铺开业大酬宾啦！</a></p>
+        <p><a href="#">......</a></p>
+    </div>
+   
+        <div class="charming"> 
+       
+          <div class="three">
+          <div class="sun"> 
+            
+          </div>
+          <div class="chang"></div>
+          <div class="sing"></div>
+        </div>
+      </div>
+   
+</body>
+</html>

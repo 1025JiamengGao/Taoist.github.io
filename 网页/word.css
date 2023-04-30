@@ -1,0 +1,1579 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
+body, html {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  display: flex;
+  overflow: hidden;
+}
+
+.g-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  font-family: 'Inconsolata', monospace, sans-serif;
+}
+
+p {
+  position: relative;
+  width: 5vh;
+  height: 100vh;
+  text-align: center;
+  font-size: 5vh;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+p::before, p::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+p:nth-child(0)::before {
+  content: "ቼ屯同颐需ዽቼ萃同豫大家夷 \a无 ዽ ጿ谦\aቼ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-0 3.9s steps(20, end) -0.2s infinite;
+  z-index: 1;
+}
+
+p:nth-child(0)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.9s infinite 0s linear;
+  z-index: 2;
+}
+
+@keyframes typing-0 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: " 兮 损师蹇及ዽ讼困人 复ኈ 谦\a大萃兮无随丰益讼";
+  }
+}
+
+p:nth-child(1)::before {
+  content: " 过兑噬颐比无  坤 及乾 ጿዽ蒙复噬\a履无颐睽ጿ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-1 4.4s steps(20, end) -1.8s infinite;
+  z-index: 1;
+}
+
+p:nth-child(1)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.4s infinite -1.6s linear;
+  z-index: 2;
+}
+
+@keyframes typing-1 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "ዽ井恒大鼎ዽ坤益比ጿ同及至兮\a复 归小颐ቼ睽ጿ遁乾";
+  }
+}
+
+p:nth-child(2)::before {
+  content: "及小ቼ兮ዽ\a剥师剥乾需\a同泰晋姤 随 蹇\aቼጿጿኈ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-2 4.6s steps(20, end) -3.1s infinite;
+  z-index: 1;
+}
+
+p:nth-child(2)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.6s infinite -2.9s linear;
+  z-index: 2;
+}
+
+@keyframes typing-2 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "ኈ升益同  无大巽兑壮兮ዽ涣壮 兮遁大困 涣ጿጿ";
+  }
+}
+
+p:nth-child(3)::before {
+  content: "同 \a继 ኈ及  \a  壮 备巽ቼ同及畜中泰大壮\aጿ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-3 3.7s steps(20, end) -1.7s infinite;
+  z-index: 1;
+}
+
+p:nth-child(3)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.7s infinite -1.5s linear;
+  z-index: 2;
+}
+
+@keyframes typing-3 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "贲大剥否人夷\a蛊咸坤兮益\aዽ睽 同师归震嗑";
+  }
+}
+
+p:nth-child(4)::before {
+  content: " 及ጿ过 十剥损  姤 家有ኈ恒十萃 井革\a  贲";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-4 3.8s steps(20, end) -1.7s infinite;
+  z-index: 1;
+}
+
+p:nth-child(4)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.89), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.8s infinite -1.5s linear;
+  z-index: 2;
+}
+
+@keyframes typing-4 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: " 人涣大 继 ኈኈዽ 颐及贲孚大   ጿ三井ኈ大";
+  }
+}
+
+p:nth-child(5)::before {
+  content: "益家ኈ同三兮睽畜兑大ኈ 解蒙ኈ谦ዽ遁师 兑谦 咸";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-5 3.7s steps(20, end) -0.3s infinite;
+  z-index: 1;
+}
+
+p:nth-child(5)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.7s infinite -0.1s linear;
+  z-index: 2;
+}
+
+@keyframes typing-5 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "大\a十复 兮豫 坎兮归比困兮益遁畜ቼ 节ቼ\a";
+  }
+}
+
+p:nth-child(6)::before {
+  content: "  离咸备同丰渐ዽ 随 鼎 孚ጿ 比人晋萃ዽ旅同";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-6 4.2s steps(20, end) -3s infinite;
+  z-index: 1;
+}
+
+p:nth-child(6)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.2s infinite -2.8s linear;
+  z-index: 2;
+}
+
+@keyframes typing-6 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "  嗑无 兮\a人家乾大壮解十屯ዽ 坎复 ዽ噬过兮";
+  }
+}
+
+p:nth-child(7)::before {
+  content: "夬临畜大过 ጿ夷丰中颐需\a坤履渐师随 蹇升姤复";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-7 3.7s steps(20, end) -3.5s infinite;
+  z-index: 1;
+}
+
+p:nth-child(7)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.7s infinite -3.3s linear;
+  z-index: 2;
+}
+
+@keyframes typing-7 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "\a益谦\a嗑小旅旅\a节无ጿ夷蛊家睽   ኈ蛊ኈ大  ";
+  }
+}
+
+p:nth-child(8)::before {
+  content: "涣兮 坎嗑随\a  剥困大屯孚颐家ዽ井 壮复革";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-8 3.3s steps(20, end) -3.8s infinite;
+  z-index: 1;
+}
+
+p:nth-child(8)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.3s infinite -3.6s linear;
+  z-index: 2;
+}
+
+@keyframes typing-8 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "人孚ጿ过 有\aኈ剥丰艮ዽ蹇\a晋剥无 损ጿ继ኈ夬孚 ";
+  }
+}
+
+p:nth-child(9)::before {
+  content: "革观巽颐ኈቼ解 ጿ 人蹇ኈ 临备萃丰兮\a剥 困  ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-9 4s steps(20, end) -3.8s infinite;
+  z-index: 1;
+}
+
+p:nth-child(9)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4s infinite -3.6s linear;
+  z-index: 2;
+}
+
+@keyframes typing-9 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "    丰涣ቼ解履\a噬ጿቼጿ姤三孚ቼ继  大大复";
+  }
+}
+
+p:nth-child(10)::before {
+  content: "大复 ኈ\a旅 泰 坎 兮屯夬 三孚 比渐晋震革";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-10 3.6s steps(20, end) -4.6s infinite;
+  z-index: 1;
+}
+
+p:nth-child(10)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.6s infinite -4.4s linear;
+  z-index: 2;
+}
+
+@keyframes typing-10 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "明丰 巽ጿ睽\a涣颐ጿ渐 乾夷复丰ቼ 解蒙剥观ጿ艮ኈ";
+  }
+}
+
+p:nth-child(11)::before {
+  content: "ኈኈ  ኈጿ震否 畜泰壮萃\a  兑 兮 ቼኈ 及有人";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-11 3.8s steps(20, end) -4.4s infinite;
+  z-index: 1;
+}
+
+p:nth-child(11)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.8s infinite -4.2s linear;
+  z-index: 2;
+}
+
+@keyframes typing-11 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "ጿዽ继蒙及比\a   及\a兮比 ኈዽ 恒ዽ兮小晋ኈጿ晋";
+  }
+}
+
+p:nth-child(12)::before {
+  content: "ዽ恒妹夷嗑孚ዽ ኈጿ复 明   夬临三大晋革兮";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-12 4.4s steps(20, end) -1.7s infinite;
+  z-index: 1;
+}
+
+p:nth-child(12)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.93), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.4s infinite -1.5s linear;
+  z-index: 2;
+}
+
+@keyframes typing-12 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: " 益贲兮小解剥家过ዽ观  ዽኈኈ 蒙夷 困泰谦家";
+  }
+}
+
+p:nth-child(13)::before {
+  content: "损妄革备中小  需畜益蛊及ጿ离复ጿ兑 艮嗑ጿ无ዽጿ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-13 4.7s steps(20, end) -4.5s infinite;
+  z-index: 1;
+}
+
+p:nth-child(13)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.7s infinite -4.3s linear;
+  z-index: 2;
+}
+
+@keyframes typing-13 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: " 无渐萃涣  履孚 \a妹 ጿ\a晋\a夷革噬\a咸过 ";
+  }
+}
+
+p:nth-child(14)::before {
+  content: "壮ጿጿ井大 兮ጿቼ涣临 ጿ离人乾ቼ夬比  兮";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-14 4.7s steps(20, end) -1.2s infinite;
+  z-index: 1;
+}
+
+p:nth-child(14)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.7s infinite -1s linear;
+  z-index: 2;
+}
+
+@keyframes typing-14 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "有十十ኈ噬 咸嗑 兮ቼ 复ጿ剥\a 履贲姤 三中畜";
+  }
+}
+
+p:nth-child(15)::before {
+  content: "蛊否 妄巽涣离艮兮同ዽ噬巽临鼎\a  畜需十需震晋小ጿ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-15 3.9s steps(20, end) -2.4s infinite;
+  z-index: 1;
+}
+
+p:nth-child(15)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.9s infinite -2.2s linear;
+  z-index: 2;
+}
+
+@keyframes typing-15 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "ዽ 继井ቼ噬 大师ቼ比 震 益壮妄晋丰遁需夬涣壮ዽ";
+  }
+}
+
+p:nth-child(16)::before {
+  content: "晋归 有畜豫大兮三  鼎ቼ咸复履升贲畜畜随需有观";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-16 3.2s steps(20, end) -1.9s infinite;
+  z-index: 1;
+}
+
+p:nth-child(16)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.2s infinite -1.7s linear;
+  z-index: 2;
+}
+
+@keyframes typing-16 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "姤\a嗑鼎ዽ旅兑 ጿ  震及  涣ጿ大噬人节咸嗑归";
+  }
+}
+
+p:nth-child(17)::before {
+  content: "人 革剥ቼ 至 豫姤及渐\a明解兮 井解离屯ኈቼ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-17 4.7s steps(20, end) -2.7s infinite;
+  z-index: 1;
+}
+
+p:nth-child(17)::after {
+  content: '';
+  background: linear-gradient(black, black, black, transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.7s infinite -2.5s linear;
+  z-index: 2;
+}
+
+@keyframes typing-17 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "坤过豫需蹇随ቼ ኈ  ዽ遁无ቼዽ观嗑兮需ጿ蒙中ጿ师";
+  }
+}
+
+p:nth-child(18)::before {
+  content: "ቼ蹇巽临ጿ屯复ኈቼ蛊震恒 大  需萃损剥兮三归 夬";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-18 3.9s steps(20, end) -1.9s infinite;
+  z-index: 1;
+}
+
+p:nth-child(18)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.9s infinite -1.7s linear;
+  z-index: 2;
+}
+
+@keyframes typing-18 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "孚\a三随损比 十ኈ乾\aቼ兑明大讼遁 过至遁ቼ涣";
+  }
+}
+
+p:nth-child(19)::before {
+  content: "随兮 剥妹 剥壮ቼኈ孚妹 剥临  \a蹇大复益ኈ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-19 4s steps(20, end) -3.7s infinite;
+  z-index: 1;
+}
+
+p:nth-child(19)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4s infinite -3.5s linear;
+  z-index: 2;
+}
+
+@keyframes typing-19 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: " 解兮 畜睽ዽቼ随  兮 观巽颐ጿ三小 夷复遁益";
+  }
+}
+
+p:nth-child(20)::before {
+  content: "ኈ夷ኈጿ\a壮观嗑大ቼዽዽ\a震 继涣ጿ妹\a至蒙大坎";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-20 5s steps(20, end) -2.2s infinite;
+  z-index: 1;
+}
+
+p:nth-child(20)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 5s infinite -2s linear;
+  z-index: 2;
+}
+
+@keyframes typing-20 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "  临ጿ 兮ዽ兮ዽጿ三归夬 革 兮无嗑巽  离";
+  }
+}
+
+p:nth-child(21)::before {
+  content: "益蒙大ቼ讼巽 ጿኈ 巽畜讼中 兮ጿ艮及 咸兮ዽ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-21 3.7s steps(20, end) -0.7s infinite;
+  z-index: 1;
+}
+
+p:nth-child(21)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.7s infinite -0.5s linear;
+  z-index: 2;
+}
+
+@keyframes typing-21 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "ኈ涣渐睽噬家\a及豫渐贲师大 ቼ ቼ 屯  有ጿ\a";
+  }
+}
+
+p:nth-child(22)::before {
+  content: "小夬ጿ\a兮及 \a屯孚屯ጿ鼎 \aቼ益屯震\a噬大  无";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-22 3.8s steps(20, end) -1s infinite;
+  z-index: 1;
+}
+
+p:nth-child(22)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.8s infinite -0.8s linear;
+  z-index: 2;
+}
+
+@keyframes typing-22 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "泰有ዽ困剥ጿ恒\aዽ升及 否丰遁姤三萃屯 兮ጿ壮";
+  }
+}
+
+p:nth-child(23)::before {
+  content: "  及 解晋\a中噬井 同 剥大姤ቼ无比节ቼዽ遁渐";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-23 4.8s steps(20, end) -1.7s infinite;
+  z-index: 1;
+}
+
+p:nth-child(23)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.8s infinite -1.5s linear;
+  z-index: 2;
+}
+
+@keyframes typing-23 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "及咸中否 \a泰壮ኈ妄鼎蛊贲家兮坎升 大颐 否兮ዽ兮";
+  }
+}
+
+p:nth-child(24)::before {
+  content: "损  乾泰升至三ጿ乾渐 咸涣 ጿ解三过嗑噬 ዽ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-24 3.3s steps(20, end) -2.7s infinite;
+  z-index: 1;
+}
+
+p:nth-child(24)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.3s infinite -2.5s linear;
+  z-index: 2;
+}
+
+@keyframes typing-24 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: " 遁人需复节妹晋\a人观   壮ዽጿጿ兮畜恒豫需兮";
+  }
+}
+
+p:nth-child(25)::before {
+  content: "中咸 坤巽ቼ 屯大ኈ 中豫剥离同ቼ需 师蛊节困兮";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-25 4.4s steps(20, end) -3.8s infinite;
+  z-index: 1;
+}
+
+p:nth-child(25)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.4s infinite -3.6s linear;
+  z-index: 2;
+}
+
+@keyframes typing-25 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "明ጿ否同震剥离及过ቼ旅兮离讼妄ጿ小 旅及  ዽ ቼ";
+  }
+}
+
+p:nth-child(26)::before {
+  content: "旅解继妄巽解  ጿ睽 大讼\a艮明需鼎ኈ\a \a大ቼ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-26 4s steps(20, end) -0.5s infinite;
+  z-index: 1;
+}
+
+p:nth-child(26)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.99), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4s infinite -0.3s linear;
+  z-index: 2;
+}
+
+@keyframes typing-26 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "噬十巽畜 归  萃坤嗑家  夷震离兮\a随明畜 兮否";
+  }
+}
+
+p:nth-child(27)::before {
+  content: "大ኈ履ጿ三噬剥益 艮妹ጿ  畜ጿ ዽ妹需 艮\a  ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-27 4.8s steps(20, end) -0.9s infinite;
+  z-index: 1;
+}
+
+p:nth-child(27)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.8s infinite -0.7s linear;
+  z-index: 2;
+}
+
+@keyframes typing-27 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "需ኈ ዽዽ孚恒ኈ备艮比 有剥 备\aቼ 夷同同否继革";
+  }
+}
+
+p:nth-child(28)::before {
+  content: "人壮夬ዽ损ቼቼ丰讼\a  萃 旅\a壮恒兮夬\aጿዽ兮睽";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-28 4.3s steps(20, end) -2.3s infinite;
+  z-index: 1;
+}
+
+p:nth-child(28)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.3s infinite -2.1s linear;
+  z-index: 2;
+}
+
+@keyframes typing-28 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "十益兮畜ኈ 坎谦豫剥无遁 蛊小ዽ\a   讼解 噬损有";
+  }
+}
+
+p:nth-child(29)::before {
+  content: " 复兮革\a坤剥ጿ继大遁损兮临畜继贲ጿ\a 讼ቼ大ጿ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-29 3.4s steps(20, end) -5s infinite;
+  z-index: 1;
+}
+
+p:nth-child(29)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.4s infinite -4.8s linear;
+  z-index: 2;
+}
+
+@keyframes typing-29 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: " 大 大坎噬丰\aኈ师兮晋畜 大至 贲 家井ዽቼ";
+  }
+}
+
+p:nth-child(30)::before {
+  content: "ጿ  兮家人ዽ  随  师 讼ኈ及 兮妹大ጿ 兮ኈ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-30 3.5s steps(20, end) -2.3s infinite;
+  z-index: 1;
+}
+
+p:nth-child(30)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.5s infinite -2.1s linear;
+  z-index: 2;
+}
+
+@keyframes typing-30 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "  畜ቼ坤丰复 ዽጿ夬十 十壮ዽኈ姤大睽贲比ጿ兮旅";
+  }
+}
+
+p:nth-child(31)::before {
+  content: "ጿ兮 小坎萃屯畜解旅 妄升 孚颐蛊屯师 归ኈ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-31 4.4s steps(20, end) -1.2s infinite;
+  z-index: 1;
+}
+
+p:nth-child(31)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.4s infinite -1s linear;
+  z-index: 2;
+}
+
+@keyframes typing-31 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "蹇十\a 妹三ጿ兑噬 \aዽ鼎及ቼ震 晋孚噬豫大鼎ዽ";
+  }
+}
+
+p:nth-child(32)::before {
+  content: "讼 离明三及兑 人咸贲大兮 ጿ需 \a噬继\a   ጿ妹";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-32 3.3s steps(20, end) -1.2s infinite;
+  z-index: 1;
+}
+
+p:nth-child(32)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.3s infinite -1s linear;
+  z-index: 2;
+}
+
+@keyframes typing-32 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "  十师中ኈ兮益咸及归  萃讼ዽቼ解需及丰兮嗑否";
+  }
+}
+
+p:nth-child(33)::before {
+  content: "睽 十 ዽ人ኈ 乾及 有大\aኈ \aኈ 蒙师ቼ萃ጿ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-33 3.7s steps(20, end) -0.8s infinite;
+  z-index: 1;
+}
+
+p:nth-child(33)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.7s infinite -0.6s linear;
+  z-index: 2;
+}
+
+@keyframes typing-33 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: " 鼎\aኈቼጿ坎妄渐蹇\a咸大噬ዽ 蛊\a坎  复兮畜大";
+  }
+}
+
+p:nth-child(34)::before {
+  content: "解嗑\a归大 ዽ坤大丰无畜ኈ明 ቼዽ\a畜涣咸畜艮ቼ妄";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-34 4.6s steps(20, end) -4.3s infinite;
+  z-index: 1;
+}
+
+p:nth-child(34)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.6s infinite -4.1s linear;
+  z-index: 2;
+}
+
+@keyframes typing-34 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "ኈ畜ቼ姤睽旅    井ኈ坤ጿ至大有中困颐 讼 及";
+  }
+}
+
+p:nth-child(35)::before {
+  content: "大解继井有革ጿ坤十过升大离ቼቼ  嗑无嗑需及";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-35 3.7s steps(20, end) -1.2s infinite;
+  z-index: 1;
+}
+
+p:nth-child(35)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.7s infinite -1s linear;
+  z-index: 2;
+}
+
+@keyframes typing-35 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "兑姤讼谦明 震 咸ዽዽኈ继孚\a坤萃 过兮离 旅 ";
+  }
+}
+
+p:nth-child(36)::before {
+  content: "\a大蒙至姤师 ጿ恒\a兮需ቼ涣噬ጿ大 鼎\a小ኈ及咸继";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-36 4.6s steps(20, end) -1.1s infinite;
+  z-index: 1;
+}
+
+p:nth-child(36)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.6s infinite -0.9s linear;
+  z-index: 2;
+}
+
+@keyframes typing-36 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "备ዽዽ三兮 \a兑咸ቼ屯中ኈዽ十临豫ጿ旅履咸兮 兮";
+  }
+}
+
+p:nth-child(37)::before {
+  content: "\a及遁节ጿጿጿ兮 大ጿኈ 妹噬同十颐  否大ጿ随";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-37 4.5s steps(20, end) -2s infinite;
+  z-index: 1;
+}
+
+p:nth-child(37)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.5s infinite -1.8s linear;
+  z-index: 2;
+}
+
+@keyframes typing-37 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "ቼ兑  归临乾屯归 履ጿ\a 及ዽ巽\a丰咸大履ኈ损";
+  }
+}
+
+p:nth-child(38)::before {
+  content: "备及归大及升ጿ否 谦升  升兮 畜继艮 兮随";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-38 3.3s steps(20, end) -4.7s infinite;
+  z-index: 1;
+}
+
+p:nth-child(38)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.3s infinite -4.5s linear;
+  z-index: 2;
+}
+
+@keyframes typing-38 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "ዽዽ妹明 \a升ኈ 解巽节艮噬 兑ዽኈ观 及ቼ 十";
+  }
+}
+
+p:nth-child(39)::before {
+  content: "否兮ቼ 家有咸 讼 兮节 \a过丰大ዽዽ困比小遁";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-39 4.7s steps(20, end) -2.9s infinite;
+  z-index: 1;
+}
+
+p:nth-child(39)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.7s infinite -2.7s linear;
+  z-index: 2;
+}
+
+@keyframes typing-39 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "丰萃备ቼ 萃泰小\a节 嗑ጿ屯\a豫恒乾小噬遁ቼ大遁坤";
+  }
+}
+
+p:nth-child(40)::before {
+  content: "\a 损及离 人中节大师至ዽ  夷ኈ屯恒履\a临 ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-40 3.3s steps(20, end) -3.4s infinite;
+  z-index: 1;
+}
+
+p:nth-child(40)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.3s infinite -3.2s linear;
+  z-index: 2;
+}
+
+@keyframes typing-40 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "需畜泰旅中兮\a小临 畜  ጿ 中明ኈ明姤坤妄及有";
+  }
+}
+
+p:nth-child(41)::before {
+  content: " ጿ明益及兮谦节人  蹇\aጿ\a复益ጿዽ十坤师\a  ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-41 3.8s steps(20, end) -0.3s infinite;
+  z-index: 1;
+}
+
+p:nth-child(41)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.8s infinite -0.1s linear;
+  z-index: 2;
+}
+
+@keyframes typing-41 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "ዽ畜观ጿ妄兑 畜ዽ\a  兑丰ቼ 萃畜损及ቼ三震兮临";
+  }
+}
+
+p:nth-child(42)::before {
+  content: "  \a复备萃明大过否睽人升ኈ  困离咸明夷 ቼ大ዽ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-42 3.5s steps(20, end) -1.5s infinite;
+  z-index: 1;
+}
+
+p:nth-child(42)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.5s infinite -1.3s linear;
+  z-index: 2;
+}
+
+@keyframes typing-42 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "革ጿ\a继 井\a ኈኈ壮ጿ兮 ጿ兮兮损兮屯 人 困姤";
+  }
+}
+
+p:nth-child(43)::before {
+  content: "ጿ姤 坎艮畜 坎谦晋 损 大睽渐及备小\a  ቼ渐革";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-43 3.4s steps(20, end) -4.7s infinite;
+  z-index: 1;
+}
+
+p:nth-child(43)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.97), rgba(0, 0, 0, 0.97), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.4s infinite -4.5s linear;
+  z-index: 2;
+}
+
+@keyframes typing-43 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "观 兮至ጿኈ  萃 ኈ乾ዽ观ጿቼ噬\a  十观大及";
+  }
+}
+
+p:nth-child(44)::before {
+  content: "兑ኈ\a无巽 及\a明  继夬ጿ泰ቼ 节过井 \a  ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-44 3.9s steps(20, end) -0.3s infinite;
+  z-index: 1;
+}
+
+p:nth-child(44)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.9s infinite -0.1s linear;
+  z-index: 2;
+}
+
+@keyframes typing-44 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "ዽ中坤  ጿ颐 蹇ኈ过  \aኈ萃涣 损讼贲大艮ቼ";
+  }
+}
+
+p:nth-child(45)::before {
+  content: "\a益家兮鼎豫ቼ有噬ዽ 革乾蒙ኈ渐渐姤剥兑 节十益坎";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-45 4.8s steps(20, end) -4.2s infinite;
+  z-index: 1;
+}
+
+p:nth-child(45)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.8s infinite -4s linear;
+  z-index: 2;
+}
+
+@keyframes typing-45 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "否备 ቼ晋  \a兮兑妄ጿ鼎大大大兮节同  ዽ丰";
+  }
+}
+
+p:nth-child(46)::before {
+  content: "ኈ需大鼎ጿ\a人 孚ጿ蹇革随节 丰备ኈ兮同夷备恒";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-46 3.6s steps(20, end) -0.3s infinite;
+  z-index: 1;
+}
+
+p:nth-child(46)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.6s infinite -0.1s linear;
+  z-index: 2;
+}
+
+@keyframes typing-46 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "旅师\a及大ዽ损至 ዽ 及比\aጿ兑ቼ嗑泰ዽቼ人人兮";
+  }
+}
+
+p:nth-child(47)::before {
+  content: "震\a 三坤ጿጿ井大兮益\a \aኈ兮姤观丰中屯ኈ孚鼎";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-47 4.8s steps(20, end) -1.3s infinite;
+  z-index: 1;
+}
+
+p:nth-child(47)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.8s infinite -1.1s linear;
+  z-index: 2;
+}
+
+@keyframes typing-47 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "备\a  大 ቼ大ጿ复兮革归\a晋至贲困困丰 剥噬 大";
+  }
+}
+
+p:nth-child(48)::before {
+  content: "孚节泰 萃屯小过\a \aዽ蹇ዽ兑 兮ዽ否 ጿ益谦升\a";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-48 3.2s steps(20, end) -2.5s infinite;
+  z-index: 1;
+}
+
+p:nth-child(48)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 3.2s infinite -2.3s linear;
+  z-index: 2;
+}
+
+@keyframes typing-48 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "\a \a坤及明ጿ蹇人渐渐ኈ兮蹇姤晋渐 ኈ ኈ大ቼኈ涣孚";
+  }
+}
+
+p:nth-child(49)::before {
+  content: "艮蹇坤震损坎孚ዽ讼 蹇畜大随 ቼ 大及嗑 ቼ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-49 4.4s steps(20, end) -5s infinite;
+  z-index: 1;
+}
+
+p:nth-child(49)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.4s infinite -4.8s linear;
+  z-index: 2;
+}
+
+@keyframes typing-49 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "渐 艮无及畜备\a涣节渐恒鼎坎夬大 人ኈ贲颐畜涣";
+  }
+}
+
+p:nth-child(50)::before {
+  content: "小夷蒙节 噬无三有需履同妹\a噬有ኈ 同ዽ十ቼ屯ዽቼ";
+  color: #b3ffc7;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+  animation: typing-50 4.5s steps(20, end) -2.4s infinite;
+  z-index: 1;
+}
+
+p:nth-child(50)::after {
+  content: '';
+  background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76), transparent 75%, transparent);
+  background-size: 100% 220%;
+  background-repeat: no-repeat;
+  animation: mask 4.5s infinite -2.2s linear;
+  z-index: 2;
+}
+
+@keyframes typing-50 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+    content: "鼎壮ኈ ዽ临剥乾\a涣归畜ኈ艮\a益ዽ观小渐升ዽጿ";
+  }
+}
+
+@keyframes mask {
+  0% {
+    background-position: 0 220%;
+  }
+  30% {
+    background-position: 0 0%;
+  }
+  100% {
+    background-position: 0 0%;
+  }
+}
