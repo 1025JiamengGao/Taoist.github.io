@@ -71,10 +71,63 @@
             height:50px;
             background-color: aliceblue;
         }
+        .Flower{
+            display:flex;
+            gap:20px;
+            position:fixed;
+            width: 100vw;
+            height: 100vh;
+           
+        }
+        
+        .f{
+            position:absolute;
+            color:rgba(191, 118, 122, 0.759);
+            letter-spacing:10em;
+            text-shadow: 10px 10px pink;
+            animation:aflower 10s linear 2s infinite;
+        }
+        .Bf{
+            position: absolute;
+            text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px currentColor, 0 0 10px currentColor;
+            color:rgba(191, 118, 122, 0.759);
+            
+            letter-spacing:8em;
+            font-size: 30px;
+          
+            animation:flower 10s linear infinite;
+        }
+        @keyframes flower{
+            from{
+                transform:translateX(0) translateY(0);
+            }
+           to{
+            transform:translateX(200px) translateY(800px) ;
+           }
+            
+        }
+        @keyframes aflower{
+            0%{
+                transform:translateX(0) translateY(0) ;
+            }
+            100%{
+                transform:translateX(0px) translateY(900px) ;
+            }
+            
+            
+        }
+    
+
     </style>
 
 </head>
 <body>
+    <div class="Flower">
+        
+        <div class="Flower f">❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀</div>
+        <div class="Bf">❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀</div>
+        
+    </div>
     <div class="backg"></div>
     <div class="pageheader1"> 
         <span>道生一，一生二，二生三，三生万物</span>
@@ -88,6 +141,7 @@
         <iframe src="nav.html" width="15%" frameborder="0" id="navv"></iframe>
         <iframe src="content.html" name="内容" width="80%"frameborder="0" class="con"></iframe>
     </div>
+    <div class="Flower f" >❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀</div>
     <div class="pagefoot">
     有事请call:19130603561 <br/>
     作者自号：追风
